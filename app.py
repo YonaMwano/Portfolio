@@ -1,0 +1,39 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    projects = [
+        {
+            "title": "E-Commerce Platform",
+            "description": "Built a full-stack e-commerce web application with product management, cart functionality, secure checkout, and dashboard analytics.",
+            "link": "https://github.com/yourusername/ecommerce-platform"
+        },
+        {
+            "title": "Inventory Management System",
+            "description": "Developed a business dashboard for tracking inventory, sales, and stock movement using Python, PHP, and JavaScript.",
+            "link": "https://github.com/yourusername/inventory-management"
+        },
+        {
+            "title": "Task Management App",
+            "description": "Created a productivity app with user authentication, task filtering, deadlines, and reminder features.",
+            "link": "https://github.com/yourusername/task-manager"
+        },
+        {
+            "title": "Portfolio CMS",
+            "description": "Designed a custom content management dashboard for managing portfolio projects, blogs, and client information.",
+            "link": "https://github.com/yourusername/portfolio-cms"
+        }
+    ]
+
+    skills = [
+        "Python", "Flask", "PHP", "JavaScript", "HTML5", "CSS3",
+        "Bootstrap", "Tailwind CSS", "MySQL", "REST APIs", "Git/GitHub",
+        "UI/UX", "Responsive Design", "Problem Solving"
+    ]
+
+    return render_template("index.html", projects=projects, skills=skills)
+
+if __name__ == "__main__":
+    app.run(debug=True)
