@@ -5,11 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     projects = [
-        {
-            "title": "Smart Tour Guide with AI Assistance",
-            "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
-            "link":"https://smart-tourism.gt.tc"
-        },
+        
 
         {
             "title": "careBot",
@@ -17,12 +13,17 @@ def home():
          "link": "https://carebot-blue.vercel.app"
 
         },
+
         {"title": " BOQ-CAD Tanzania",
          "description": " Professional Web-Based Architectural Plan Drawing & Construction Cost Estimator Built with pure PHP, MySQL, HTML, CSS, JavaScript, AJAX, Fabric.js, Tailwind CSS, Bootstrap 5 and MySQL.",
          "link": "https://artzone.page.gd"
 
         },
-        {},
+        {"title": "Smart Tour Guide with AI Assistance",
+                    "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
+                    "link": "https://smart-tourism.gt.tc"
+                },
+        
         {
             "title": "E-Commerce Platform",
             "description": "Built a full-stack e-commerce web application with product management, cart functionality, secure checkout, and dashboard analytics.",
