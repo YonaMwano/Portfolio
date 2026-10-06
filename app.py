@@ -8,7 +8,7 @@ def home():
         {
             "title": "Smart Tour Guide with AI Assistance",
             "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
-            "link":"smart-tourism.gt.tc"
+            "link":"https://smart-tourism.gt.tc"
         },
 
         {
