@@ -5,6 +5,18 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     projects = [
+
+        {"title": "careBot",
+         "description": "CareBot is a doctor-assisted medical chatbot built with Python, Flask, Tailwind CSS, Bootstrap, and the Groq API. It is designed to provide general health guidance, basic symptom support, and safe over-the-counter (OTC) suggestions while reinforcing that it is not a replacement for professional medical care.",
+         "link": "https://carebot-blue.vercel.app"
+
+        },
+        {"title": " BOQ-CAD Tanzania",
+         "description": " Professional Web-Based Architectural Plan Drawing & Construction Cost Estimator Built with pure PHP, MySQL, HTML, CSS, JavaScript, AJAX, Fabric.js, Tailwind CSS, Bootstrap 5 and MySQL.",
+         "link": "https://artzone.page.gd"
+
+        },
+        {},
         {
             "title": "E-Commerce Platform",
             "description": "Built a full-stack e-commerce web application with product management, cart functionality, secure checkout, and dashboard analytics.",
@@ -19,11 +31,6 @@ def home():
             "title": "Task Management App",
             "description": "Created a productivity app with user authentication, task filtering, deadlines, and reminder features.",
             "link": "https://github.com/yourusername/task-manager"
-        },
-        {
-            "title": "Portfolio CMS",
-            "description": "Designed a custom content management dashboard for managing portfolio projects, blogs, and client information.",
-            "link": "https://github.com/yourusername/portfolio-cms"
         }
     ]
 
