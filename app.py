@@ -5,8 +5,14 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     projects = [
+        {
+            "title": "Smart Tour Guide with AI Assistance",
+            "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
+            "link":"smart-tourism.gt.tc"
+        },
 
-        {"title": "careBot",
+        {
+            "title": "careBot",
          "description": "CareBot is a doctor-assisted medical chatbot built with Python, Flask, Tailwind CSS, Bootstrap, and the Groq API. It is designed to provide general health guidance, basic symptom support, and safe over-the-counter (OTC) suggestions while reinforcing that it is not a replacement for professional medical care.",
          "link": "https://carebot-blue.vercel.app"
 
