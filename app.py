@@ -28,7 +28,11 @@ def home():
                     "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
                     "link": "https://smart-tourism.gt.tc"
                 },
-        
+         {
+                    "title": "Sudoku Game",
+                    "description": "Sudoku game createad by using python Flask, Tailwind css and AJAX",
+                    "link": "https://sudoku-plum-eight.vercel.app"
+                },
         
        
         {
