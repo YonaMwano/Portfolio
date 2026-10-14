@@ -5,7 +5,16 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     projects = [
-        
+        {
+                    "title": "English Teacher Bot",
+                    "description": "A bot that can help you to learn English with interactive text to sound mode, created by using php,groq models, and AJAX.",
+                    "link": "https://english-teach.kesug.com"
+                },
+         {
+                            "title": "Inventory Management System",
+                            "description": "Developed a business dashboard for tracking inventory, sales, and stock movement using Next.js and PSQL.",
+                            "link": "https://inventorrry.netlify.app"
+                        },
 
         {
             "title": "careBot",
@@ -13,11 +22,7 @@ def home():
          "link": "https://carebot-blue.vercel.app"
 
         },
-         {
-                    "title": "Inventory Management System",
-                    "description": "Developed a business dashboard for tracking inventory, sales, and stock movement using Next.js and PSQL.",
-                    "link": "https://inventorrry.netlify.app"
-                },
+        
 
         {"title": " BOQ-CAD Tanzania",
          "description": " Professional Web-Based Architectural Plan Drawing & Construction Cost Estimator Built with pure PHP, MySQL, HTML, CSS, JavaScript, AJAX, Fabric.js, Tailwind CSS, Bootstrap 5 and MySQL.",
