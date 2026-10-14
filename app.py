@@ -13,6 +13,11 @@ def home():
          "link": "https://carebot-blue.vercel.app"
 
         },
+         {
+                    "title": "Inventory Management System",
+                    "description": "Developed a business dashboard for tracking inventory, sales, and stock movement using Next.js and PSQL.",
+                    "link": "https://inventorrry.netlify.app"
+                },
 
         {"title": " BOQ-CAD Tanzania",
          "description": " Professional Web-Based Architectural Plan Drawing & Construction Cost Estimator Built with pure PHP, MySQL, HTML, CSS, JavaScript, AJAX, Fabric.js, Tailwind CSS, Bootstrap 5 and MySQL.",
@@ -24,16 +29,8 @@ def home():
                     "link": "https://smart-tourism.gt.tc"
                 },
         
-        {
-            "title": "E-Commerce Platform",
-            "description": "Built a full-stack e-commerce web application with product management, cart functionality, secure checkout, and dashboard analytics.",
-            "link": "https://github.com/yourusername/ecommerce-platform"
-        },
-        {
-            "title": "Inventory Management System",
-            "description": "Developed a business dashboard for tracking inventory, sales, and stock movement using Python, PHP, and JavaScript.",
-            "link": "https://github.com/yourusername/inventory-management"
-        },
+        
+       
         {
             "title": "Task Management App",
             "description": "Created a productivity app with user authentication, task filtering, deadlines, and reminder features.",
@@ -43,7 +40,7 @@ def home():
 
     skills = [
         "Python", "Flask", "PHP", "JavaScript", "HTML5", "CSS3",
-        "Bootstrap", "Tailwind CSS", "MySQL", "REST APIs", "Git/GitHub",
+        "Bootstrap", "Tailwind CSS", "PSQL/MySQL", "REST APIs", "Git/GitHub",
         "UI/UX", "Responsive Design", "Problem Solving"
     ]
 
