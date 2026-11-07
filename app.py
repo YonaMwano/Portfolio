@@ -8,10 +8,11 @@ def home():
         
             {
                 
-                    "title": "English Teacher Bot",
-                    "description": "A bot that can help you to learn English with interactive text to sound mode, created by using php,groq models, and AJAX.",
-                    "link": "https://english-teach.kesug.com"
-                },
+    "title": "Fikra AI - Multi-Modal Intelligence Platform",
+    "description": "A professional AI chat interface built with Next.js and PostgreSQL. Fikra AI allows seamless interaction with multiple LLMs via a unified routing system. It features a robust model-switching architecture, utilizing Groq (openai/gpt-oss-120b & qwen/qwen3.8-27b) for high-speed text and vision tasks, alongside MagicHour APIs (z-image-turbo & qwen-image-2.1) for generative image creation and editing. The platform includes document generation capabilities and a frictionless onboarding flow, allowing guests to test general text features while gating premium actions like file uploads/downloads behind a secure Google Authentication gate.",
+    "link": "https://fikra-ai-nine.vercel.app"
+},
+
 {
   "title": "Smart Clinic — Medicine Availability & Healthcare Referral Platform",
   "description": "A healthcare platform that helps patients find live medicine availability, locate registered clinics on a map, request appointments, and track referrals. Clinics manage batch-level inventory, expiry risk, stock alerts, and unmet demand from one owner console, so shelf truth and patient access stay connected in real time.",
@@ -29,6 +30,12 @@ def home():
 {"title": "Smart Tour Guide with AI Assistance",
                     "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
                     "link": "https://smart-tourism.gt.tc"
+                },
+                {
+                
+                    "title": "English Teacher Bot",
+                    "description": "A bot that can help you to learn English with interactive text to sound mode, created by using php,groq models, and AJAX.",
+                    "link": "https://english-teach.kesug.com"
                 },
                 {
   "title": "NewsPulse — Real-time News Aggregator",
