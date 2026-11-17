@@ -26,13 +26,19 @@ def home():
             },
 
 {
+  "title": "AI POWERED WEATHER APPLICATIONS",
+  "description": "Real-time forecasts, alerts & AI insights for all 31 regions. Built with Next.js, Leaflet, Open-Meteo, OpenWeather & Groq. Supports English & Kiswahili. Clean bento UI, dark mode, and practical guidance for daily life, travel and farming.",
+  "link": "weathertz.netlify.app"
+
+
+},
+{
   "title": "Online Drafts — 10×10 International",
   "description": "A premium, mobile-first International Draughts arena with real-time multiplayer, CSS 3D board, challenge codes, bot opponents, majority capture and live clocks. Built for fast play on phones and reliable matches even with light connectivity.",
   "link": "https://agent-6ad788d08bf621689--unrivaled-mousse-762e09.netlify.app"
 }
 
 ,
-
 {"title": "Smart Tour Guide with AI Assistance",
                     "description": "An AI-powered Progressive Web App that helps tourists explore Tanzania with real-time GPS navigation, landmark recognition, and an intelligent travel chatbot. The system combines offline map support, weather and pricing insights, and an AI-moderated community forum into one platform, designed for reliable use even in remote areas with limited connectivity.",
                     "link": "https://smart-tourism.gt.tc"
