@@ -28,7 +28,7 @@ def home():
 {
   "title": "AI POWERED WEATHER APPLICATIONS",
   "description": "Real-time forecasts, alerts & AI insights for all 31 regions. Built with Next.js, Leaflet, Open-Meteo, OpenWeather & Groq. Supports English & Kiswahili. Clean bento UI, dark mode, and practical guidance for daily life, travel and farming.",
-  "link": "weathertz.netlify.app"
+  "link": "https://weathertz.netlify.app"
 
 
 },
